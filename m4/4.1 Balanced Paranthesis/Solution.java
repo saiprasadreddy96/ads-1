@@ -40,6 +40,8 @@ class Stack {
 	}
 	public boolean balanced(String[] paren) {
 		String p;
+		String[] open = {"(", "[", "{"};
+		String[] close = {")", "]", "}"};
 		for (int i = 0; i < paren.length; i++) {
 			p = paren[i];
 			if (p.equals("(") || p.equals("[") || p.equals("{")) {
@@ -47,7 +49,8 @@ class Stack {
 				push(p);
 			}
 			if (p.equals(")") || p.equals("]") || p.equals("}")) {
-				if (!p.equals(pop()) || size == 0) {
+
+				if (getindex(p, close) != getindex(pop(), open)  || size == 0) {
 					return false;
 				}
 			}
@@ -55,6 +58,13 @@ class Stack {
 		if (size == 0)
 			return true;
 		return false;
+	}
+	public static int getindex(String s1,String[] s2) {
+		for (int i = 0; i < s2.length; i++) {
+			if (s2[i].equals(s1))
+				return i;
+		}
+		return -1;
 	}
 	
 }
