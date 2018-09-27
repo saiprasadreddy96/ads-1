@@ -36,3 +36,5 @@ public final class Solution {
         System.out.println(sortedarray.concat(arr1, arr2));
     }
 }
+
+
