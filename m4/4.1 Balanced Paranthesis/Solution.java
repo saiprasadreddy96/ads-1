@@ -5,9 +5,9 @@ class Stack {
 	private String[] stack;
 	private int size, resize;
 	public Stack() {
-		stack = new String[200];
+		stack = new String[400];
 		size = 0;
-		resize = 400;
+		resize = 800;
 	}
 	public void push(String item) {
 		if (size == resize) {
