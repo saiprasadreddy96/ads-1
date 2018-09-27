@@ -49,8 +49,9 @@ class Stack {
 				push(p);
 			}
 			if (p.equals(")") || p.equals("]") || p.equals("}")) {
+				if (size == 0) return false;
 
-				if (getindex(p, close) != getindex(pop(), open)  || size == 0) {
+				if (getindex(p, close) != getindex(pop(), open)) {
 					return false;
 				}
 			}
