@@ -45,7 +45,7 @@ public class Solution<E> {
 		int a,b;
 		while (sc.hasNext()) {
 			temp = sc.next();
-			if (temp.equals("*") || temp.equals("-") || temp.equals("*") || temp.equals("/")) {
+			if (temp.equals("+") || temp.equals("-") || temp.equals("*") || temp.equals("/")) {
 				a = pl.pop();
 				b = pl.pop();
 				switch (temp) {
