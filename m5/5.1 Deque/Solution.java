@@ -51,8 +51,10 @@ class Dequeue<E> {
 			}
 			s += dequeue[i] + "]";
 			return s;
+		} else {
+			return "[]";
 		}
-		return "something wrong";
+		//return "something wrong";
 	}
 }
 class Solution {
@@ -61,7 +63,7 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		String[] input;
-		for (int i = 0; i < n; i++) {
+		for (int i = 1; i <= n + 1; i++) {
 			input = sc.nextLine().split(" ");
 			switch (input[0]) {
 				case "size":
@@ -77,11 +79,19 @@ class Solution {
 					break;
 				case "popLeft":
 					d.popleft();
-					System.out.println(d.print());
+					if (!d.isEmpty()) {
+						System.out.println(d.print());
+					} else {
+						System.out.println("Deck is empty");
+					}
 					break;
 				case "popRight":
 					d.popright();
-					System.out.println(d.print());
+					if (!d.isEmpty()) {
+						System.out.println(d.print());
+					} else {
+						System.out.println("Deck is empty");
+					}
 					break;
 				default:
 					break;
