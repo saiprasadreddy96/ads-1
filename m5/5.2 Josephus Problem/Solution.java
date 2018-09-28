@@ -8,11 +8,13 @@ public class Solution {
 			persons[i] = i;
 		}
 		int count = np, i = 1, index = 0;
+		String s = "";
 		while (count != 0) {
 			
 			if (persons[index % np] != -999) {
 				if (i == pos) {
-					System.out.println(persons[index % np]);
+					//System.out.print(persons[index % np]);
+					s += persons[index % np] + " ";
 					persons[index % np] = -999;
 					count--;
 					i = 1;
@@ -26,6 +28,8 @@ public class Solution {
 			}
 
 		}
+		System.out.println(s);
+
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
