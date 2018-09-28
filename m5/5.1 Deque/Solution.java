@@ -6,13 +6,13 @@ class Dequeue<E> {
 	int head, tail, capacity;
 	public Dequeue() {
 		dequeue = (E[])new Object[2000];
-		head = 0;
-		tail = 0;
 		capacity = 2000;
+		head = 1000;
+		tail = 1000;
 	}
 	public void pushright(E item) {
 		if (tail < capacity) {
-			dequeue[tail] = item;
+			dequeue[tail++] = item;
 		}
 	}
 	public void popleft() {
@@ -35,7 +35,7 @@ class Dequeue<E> {
 	}
 	public int size() {
 		if (head != tail)
-			return tail - head + 1;
+			return tail - head;
 		return 0;
 	}
 	public boolean isEmpty() {
@@ -46,7 +46,7 @@ class Dequeue<E> {
 		if (!isEmpty()) {
 			String s = "[";
 			int i = head;
-			for (i = head; head < tail - 1; i++) {
+			for (i = head; i < tail - 1; i++) {
 				s += dequeue[i] + ", ";
 			}
 			s += dequeue[i] + "]";
