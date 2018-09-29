@@ -56,22 +56,24 @@ class AddLargeNumbers {
         int carry = 0, a, b, c, d;
         final int ten = 10;
         while ((!stack1.isEmpty()) || (!stack2.isEmpty())) {
-            if (stack1.isEmpty()) { 
-                a = 0; 
-            } else { 
-                a = stack1.pop(); 
+            if (stack1.isEmpty()) {
+                a = 0;
+            } else {
+                a = stack1.pop();
             }
-            if (stack2.isEmpty()) { 
-                b = 0; 
-            } else { 
-                b = stack2.pop(); 
+            if (stack2.isEmpty()) {
+                b = 0;
+            } else {
+                b = stack2.pop();
             }
             d = a + b + carry;
             carry = (d) / ten;
             c = (d) % ten;
             result1.addFirst(c);
         }
-        if (carry != 0) { result1.addFirst(carry); }
+        if (carry != 0) { 
+            result1.addFirst(carry); 
+        }
         return result1;
     }
     /**.
@@ -110,11 +112,11 @@ public class Solution {
         String input = sc.nextLine();
         String p = sc.nextLine();
         String q = sc.nextLine();
-        switch (input){
+        switch (input) {
             case "numberToDigits":
-                LinkedList<Integer> pDigits = 
+                LinkedList<Integer> pDigits =
                 AddLargeNumbers.numberToDigits(p);
-                LinkedList<Integer> qDigits = 
+                LinkedList<Integer> qDigits =
                 AddLargeNumbers.numberToDigits(q);
                 System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
                 System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
@@ -122,7 +124,7 @@ public class Solution {
             case "addLargeNumbers":
                 pDigits = AddLargeNumbers.numberToDigits(p);
                 qDigits = AddLargeNumbers.numberToDigits(q);
-                LinkedList result = 
+                LinkedList result =
                 AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
                 break;
