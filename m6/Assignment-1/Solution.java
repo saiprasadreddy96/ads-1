@@ -71,8 +71,8 @@ class AddLargeNumbers {
             c = (d) % ten;
             result1.addFirst(c);
         }
-        if (carry != 0) { 
-            result1.addFirst(carry); 
+        if (carry != 0) {
+            result1.addFirst(carry);
         }
         return result1;
     }
