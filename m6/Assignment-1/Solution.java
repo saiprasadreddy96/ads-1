@@ -9,7 +9,7 @@ class AddLargeNumbers {
     /**.
      * Constructs the object.
      */
-    public AddLargeNumbers() {
+    protected AddLargeNumbers() {
     }
     /**.
      * { function_description }
@@ -96,6 +96,11 @@ class AddLargeNumbers {
  */
 public class Solution {
     /**.
+     * Constructs the object.
+     */
+    protected Solution() {
+    }
+    /**.
      * { function_description }
      *
      * @param      args  The arguments
@@ -107,16 +112,21 @@ public class Solution {
         String q = sc.nextLine();
         switch (input){
             case "numberToDigits":
-                LinkedList<Integer> pDigits = AddLargeNumbers.numberToDigits(p);
-                LinkedList<Integer> qDigits = AddLargeNumbers.numberToDigits(q);
+                LinkedList<Integer> pDigits = 
+                AddLargeNumbers.numberToDigits(p);
+                LinkedList<Integer> qDigits = 
+                AddLargeNumbers.numberToDigits(q);
                 System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
                 System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
                 break;
             case "addLargeNumbers":
                 pDigits = AddLargeNumbers.numberToDigits(p);
                 qDigits = AddLargeNumbers.numberToDigits(q);
-                LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+                LinkedList result = 
+                AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
+                break;
+            default:
                 break;
         }
     }
