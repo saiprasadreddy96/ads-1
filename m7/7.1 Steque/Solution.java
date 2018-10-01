@@ -45,6 +45,7 @@ class LinkedList<E> {
 		if (head == null) return;
 		while(temp.next != null) {
 			System.out.println(temp.data);
+			temp = temp.next;
 			
 		}
 		System.out.println(temp.data);
