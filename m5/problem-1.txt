@@ -1,0 +1,1 @@
+The sequences b, c and d do not occur as when we push 0 through to 9 in order everytime the first number coming out of the queue should be 0.
