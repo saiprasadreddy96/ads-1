@@ -76,6 +76,7 @@ class Solution {
 						break;
 				}
 				ll.print();
+				if (!sc.hasNext()) break;
 				str = sc.nextLine();
 			}
 			System.out.println();
