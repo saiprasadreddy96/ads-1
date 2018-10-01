@@ -100,7 +100,8 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
-			LinkedList<Integer> ll = new LinkedList<Integer>();
+			LinkedList<Integer> ll 
+			= new LinkedList<Integer>();
 			//String str = sc.nextLine();
 			while(sc.hasNext()) {
 				String str = sc.nextLine();
@@ -108,13 +109,15 @@ class Solution {
 				String[] str1 = str.split(" ");
 				switch (str1[0]) {
 					case "push":
-						ll.push(Integer.parseInt(str1[1]));
+						ll.push(Integer.parseInt
+							(str1[1]));
 						break;
 					case "pop":
 						ll.pop();
 						break;
 					case "enqueue":
-						ll.enqueue(Integer.parseInt(str1[1]));
+						ll.enqueue(Integer.parseInt
+							(str1[1]));
 						break;
 					default:
 						break;
