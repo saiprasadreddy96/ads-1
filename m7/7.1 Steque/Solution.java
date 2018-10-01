@@ -59,8 +59,10 @@ class Solution {
 		int n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
 			LinkedList<Integer> ll = new LinkedList<Integer>();
-			String str = sc.nextLine();
-			while(str.length() != 0) {
+			//String str = sc.nextLine();
+			while(sc.hasNext()) {
+				String str = sc.nextLine();
+				if (str.isEmpty()) break;
 				String[] str1 = str.split(" ");
 				switch (str1[0]) {
 					case "push":
@@ -76,8 +78,6 @@ class Solution {
 						break;
 				}
 				ll.print();
-				if (!sc.hasNext()) break;
-				str = sc.nextLine();
 			}
 			System.out.println();
 		}
