@@ -5,12 +5,18 @@ import java.util.Scanner;
  * @param      <E>   { parameter_description }
  */
 class LinkedList<E> {
-	private Node head, tail;
+    private Node head, tail;
 	/**.
 	 * Class for node.
 	 */
 	class Node {
+		/**.
+		 * { var_description }
+		 */
 		private E data;
+		/**.
+		 * { var_description }
+		 */
 		private Node next;
 		/**.
 		 * Constructs the object.
@@ -25,7 +31,7 @@ class LinkedList<E> {
 	/**.
 	 * Constructs the object.
 	 */
-	public LinkedList() {
+	protected LinkedList() {
 		head = null;
 		tail = null;
 	}
@@ -51,8 +57,9 @@ class LinkedList<E> {
 			return;
 		}
 		head = head.next;
-		if (head == null) 
+		if (head == null) {
 			tail = head;
+		}
 	}
 	/**.
 	 * { function_description }
@@ -90,34 +97,36 @@ class LinkedList<E> {
 /**.
  * Class for solution.
  */
-class Solution {
+final class Solution {
 	/**.
 	 * { function_description }
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
-			LinkedList<Integer> ll 
+			LinkedList<Integer> ll
 			= new LinkedList<Integer>();
 			//String str = sc.nextLine();
-			while(sc.hasNext()) {
+			while (sc.hasNext()) {
 				String str = sc.nextLine();
-				if (str.isEmpty()) break;
+				if (str.isEmpty()) {
+					break;
+				}
 				String[] str1 = str.split(" ");
 				switch (str1[0]) {
 					case "push":
-						ll.push(Integer.parseInt
-							(str1[1]));
+						ll.push(Integer.parseInt(
+							str1[1]));
 						break;
 					case "pop":
 						ll.pop();
 						break;
 					case "enqueue":
-						ll.enqueue(Integer.parseInt
-							(str1[1]));
+						ll.enqueue(Integer.parseInt(
+							str1[1]));
 						break;
 					default:
 						break;
