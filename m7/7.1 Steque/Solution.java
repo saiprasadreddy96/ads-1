@@ -47,7 +47,7 @@ class LinkedList<E> {
 			str += (temp.data) + ", ";
 		}
 		str += temp.data;
-		System.out.println(str.trim());
+		System.out.println(str);
 	}
 }
 class Solution {
