@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @param      <E>   { parameter_description }
  */
 class LinkedList<E> {
-	/**.
+    /**.
 	 * { item_description }
 	 */
     private Node head, tail;
@@ -100,7 +100,7 @@ class LinkedList<E> {
 /**.
  * Class for solution.
  */
-final class Solution {
+class Solution {
 	/**.
 	 * Constructs the object.
 	 */
