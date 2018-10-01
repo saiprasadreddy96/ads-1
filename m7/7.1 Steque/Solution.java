@@ -60,7 +60,7 @@ class Solution {
 		for (int i = 0; i < n; i++) {
 			LinkedList<Integer> ll = new LinkedList<Integer>();
 			String str = sc.nextLine();
-			while(str != "\n") {
+			while(!str.equals(null)) {
 				String[] str1 = str.split(" ");
 				switch (str1[0]) {
 					case "push":
