@@ -1,19 +1,40 @@
 import java.util.Scanner;
+/**.
+ * List of linkeds.
+ *
+ * @param      <E>   { parameter_description }
+ */
 class LinkedList<E> {
 	private Node head, tail;
+	/**.
+	 * Class for node.
+	 */
 	class Node {
 		private E data;
 		private Node next;
-		public Node(E item) {
+		/**.
+		 * Constructs the object.
+		 *
+		 * @param      item  The item
+		 */
+		public Node(final E item) {
 			this.data = item;
 			this.next = null;
 		}
 	}
+	/**.
+	 * Constructs the object.
+	 */
 	public LinkedList() {
 		head = null;
 		tail = null;
 	}
-	public void push(E item) {
+	/**.
+	 * { function_description }
+	 *
+	 * @param      item  The item
+	 */
+	public void push(final E item) {
 		Node newnode = new Node(item);
 		if (head == null) {
 			tail = newnode;
@@ -21,6 +42,9 @@ class LinkedList<E> {
 		newnode.next = head;
 		head = newnode;
 	}
+	/**.
+	 * { function_description }
+	 */
 	public void pop() {
 		if (head == null) {
 			//System.out.println("Steque is empty.");
@@ -30,7 +54,12 @@ class LinkedList<E> {
 		if (head == null) 
 			tail = head;
 	}
-	public void enqueue(E item) {
+	/**.
+	 * { function_description }
+	 *
+	 * @param      item  The item
+	 */
+	public void enqueue(final E item) {
 		if (head == null) {
 			push(item);
 			return;
@@ -40,6 +69,9 @@ class LinkedList<E> {
 		newnode.next = null;
 		tail = newnode;
 	}
+	/**.
+	 * { function_description }
+	 */
 	public void print() {
 		Node temp = head;
 		String str = "";
@@ -50,13 +82,20 @@ class LinkedList<E> {
 		while(temp.next != null) {
 			str += temp.data + ", ";
 			temp = temp.next;
-			
 		}
 		str += temp.data;
 		System.out.println(str);
 	}
 }
+/**.
+ * Class for solution.
+ */
 class Solution {
+	/**.
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
@@ -84,6 +123,7 @@ class Solution {
 			}
 			System.out.println();
 		}
-		
 	}
 }
+
+
