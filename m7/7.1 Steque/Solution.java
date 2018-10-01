@@ -23,7 +23,7 @@ class LinkedList<E> {
 	}
 	public void pop() {
 		if (head == null) {
-			System.out.println("Solution is empty.");
+			System.out.println("Steque is empty.");
 			return;
 		}
 		head = head.next;
@@ -46,6 +46,7 @@ class LinkedList<E> {
 		while(temp.next != null) {
 			str += (temp.data) + ", ";
 		}
+		str += temp.data;
 		System.out.println(str.trim());
 	}
 }
