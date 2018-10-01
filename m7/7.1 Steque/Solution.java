@@ -41,13 +41,14 @@ class LinkedList<E> {
 	}
 	public void print() {
 		Node temp = head;
-		String str = "";
+		//String str = "";
 		if (head == null) return;
 		while(temp.next != null) {
-			str += (temp.data) + ", ";
+			System.out.println(temp.data);
+			
 		}
-		str += temp.data;
-		System.out.println(str);
+		System.out.println(temp.data);
+		//System.out.println(str);
 	}
 }
 class Solution {
