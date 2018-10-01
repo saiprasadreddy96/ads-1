@@ -12,7 +12,7 @@ class LinkedList<E> {
     /**.
     * Class for node.
     */
-	class Node {
+    class Node {
 		/**.
 		 * { var_description }
 		 */
