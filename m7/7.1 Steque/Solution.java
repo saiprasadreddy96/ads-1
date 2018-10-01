@@ -79,7 +79,7 @@ class LinkedList<E> {
 			System.out.println("Steque is empty.");
 			return;
 		}
-		while(temp.next != null) {
+		while (temp.next != null) {
 			str += temp.data + ", ";
 			temp = temp.next;
 		}
