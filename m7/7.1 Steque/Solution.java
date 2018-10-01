@@ -41,15 +41,15 @@ class LinkedList<E> {
 	}
 	public void print() {
 		Node temp = head;
-		//String str = "";
+		String str = "";
 		if (head == null) return;
 		while(temp.next != null) {
-			System.out.println(temp.data);
+			str += temp.data + ", ";
 			temp = temp.next;
 			
 		}
-		System.out.println(temp.data);
-		//System.out.println(str);
+		str += temp.data;
+		System.out.println(str);
 	}
 }
 class Solution {
