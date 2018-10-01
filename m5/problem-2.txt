@@ -1,0 +1,2 @@
+When the first while loop executes the values are pushed into stack, after that they are removed from queue one-by-one.
+during second while loop execution the values poped from the stack are pushed onto the queue. Here, the order of values entering the queue are in reverse order when compared to the values in first starting queue.
