@@ -56,7 +56,7 @@ class LinkedList<E> {
 class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int n = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < n; i++) {
 			LinkedList<Integer> ll = new LinkedList<Integer>();
 			String str = sc.nextLine();
