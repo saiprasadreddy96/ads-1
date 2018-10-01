@@ -6,8 +6,8 @@ import java.util.Scanner;
  */
 class LinkedList<E> {
     /**.
-	 * { item_description }
-	 */
+    * { item_description }
+    */
     private Node head, tail;
 	/**.
 	 * Class for node.
@@ -104,7 +104,7 @@ class Solution {
 	/**.
 	 * Constructs the object.
 	 */
-	public Solution() {
+	private Solution() {
 	}
 	/**.
 	 * { function_description }
