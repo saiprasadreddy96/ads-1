@@ -42,6 +42,7 @@ class LinkedList<E> {
 	public void print() {
 		Node temp = head;
 		String str = "";
+		if (head == null) return;
 		while(temp.next != null) {
 			str += (temp.data) + ", ";
 		}
