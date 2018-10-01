@@ -9,7 +9,7 @@ class LinkedList<E> {
     * { item_description }
     */
     private Node head, tail;
-	/**.
+    /**.
 	 * Class for node.
 	 */
 	class Node {
