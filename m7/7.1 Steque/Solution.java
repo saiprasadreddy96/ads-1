@@ -36,8 +36,9 @@ class LinkedList<E> {
 			return;
 		}
 		Node newnode = new Node(item);
-		tail = newnode;
+		tail.next = newnode;
 		newnode.next = null;
+		tail = newnode;
 	}
 	public void print() {
 		Node temp = head;
