@@ -59,23 +59,26 @@ class Solution {
 		int n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
 			LinkedList<Integer> ll = new LinkedList<Integer>();
-			while(sc.hasNext()) {
-				String[] str = sc.nextLine().split(" ");
-				switch (str[0]) {
+			String str = sc.nextLine();
+			while(str != "\n") {
+				String[] str1 = str.split(" ");
+				switch (str1[0]) {
 					case "push":
-						ll.push(Integer.parseInt(str[1]));
+						ll.push(Integer.parseInt(str1[1]));
 						break;
 					case "pop":
 						ll.pop();
 						break;
 					case "enqueue":
-						ll.enqueue(Integer.parseInt(str[1]));
+						ll.enqueue(Integer.parseInt(str1[1]));
 						break;
 					default:
 						break;
 				}
 				ll.print();
+				str = sc.nextLine();
 			}
+			System.out.println();
 		}
 		
 	}
