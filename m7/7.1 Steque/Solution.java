@@ -10,8 +10,8 @@ class LinkedList<E> {
     */
     private Node head, tail;
     /**.
-	 * Class for node.
-	 */
+    * Class for node.
+    */
 	class Node {
 		/**.
 		 * { var_description }
