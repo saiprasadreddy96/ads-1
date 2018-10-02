@@ -50,8 +50,9 @@ final class Solution {
 				Team t = teams[j - 1];
 				teams[j - 1] = teams[j];
 				teams[j] = t;
+				j--;
 			}
-			print();
+			//print();
 		}
 
 	}
