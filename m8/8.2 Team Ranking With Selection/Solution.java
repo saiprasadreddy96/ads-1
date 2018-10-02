@@ -46,7 +46,7 @@ final class Solution {
 	public void Insertionsort() {
 		for (int i = 1; i < size; i++) {
 			int j = i;
-			while (teams[j - 1].compareTo(teams[j]) == 1 && j > 0) {
+			while (teams[j - 1].compareTo(teams[j]) == 1 && j >= 1) {
 				Team t = teams[j - 1];
 				teams[j - 1] = teams[j];
 				teams[j] = t;
