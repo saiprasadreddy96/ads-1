@@ -46,13 +46,17 @@ final class Solution {
 	public void Insertionsort() {
 		for (int i = 1; i < size; i++) {
 			int j = i;
-			while (teams[j - 1].compareTo(teams[j]) == 1 && j > 0) {
-				Team t = teams[j - 1];
-				teams[j - 1] = teams[j];
-				teams[j] = t;
-				j = j - 1;
+			while (j > 0) {
+				if (teams[j - 1].compareTo(teams[j]) == 1) {
+					Team t = teams[j - 1];
+					teams[j - 1] = teams[j];
+					teams[j] = t;
+					j = j - 1;
+				} else {
+					break;
+				}
 			}
-			//print();
+			
 		}
 
 	}
