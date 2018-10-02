@@ -38,7 +38,7 @@ class Solution {
 	private Team[] teams;
 	private int size;
 	Solution() {
-		teams = new Team[0];
+		teams = new Team[10];
 		size = 0;
 	}
 	public int size() {
