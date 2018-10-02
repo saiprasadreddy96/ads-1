@@ -51,6 +51,7 @@ final class Solution {
 				teams[j - 1] = teams[j];
 				teams[j] = t;
 			}
+			System.out.println(teams[i].getname());
 		}
 
 	}
