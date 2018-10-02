@@ -23,7 +23,7 @@ class Team implements Comparable<Team>{
 			} else if (this.l < other.l) {
 				return 0;
 			} else {
-				if (this.d > other.d) {
+				if (this.d < other.d) {
 					return 1;
 				} else {
 					return 0;
