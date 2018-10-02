@@ -1,0 +1,3 @@
+Insertion sort runs faster than Selection sort when all keys are identical, because in insertions sort the inner loop doesn't get executed atleast once as the elements are identical.So the time complexity of insertion sort will be always in the order of O(n) in this particular case.
+
+Coming to Selection sort the inner loop gets executed irrespective of whether elements are identical or not.So The time complexity of Seleciton sort in this case will be around O(n^2).
