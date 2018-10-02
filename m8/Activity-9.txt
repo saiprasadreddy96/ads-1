@@ -1,0 +1,1 @@
+Selection sort runs faster for insertion sort as there will be only N exchanges in it when comapred to N^2/2 exchanges in insertion sort.
