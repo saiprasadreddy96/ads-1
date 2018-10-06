@@ -103,6 +103,7 @@ class Solution {
 		}
 		s.meritsort();
 		s.print();
+		System.out.println();
 		s.reservationsort();
 		
 	}
