@@ -1,11 +1,14 @@
 import java.util.Scanner;
 class Solution {
 	private Student[] students;
+	private Student[] rstudents;
 	private int size;
-	private int nstudents, nseats, nunreverseds, nbcs, nscs, nsts;
+	private int nstudents, nseats, nunreverseds, nbcs, nscs, nsts, rsize;
 	Solution(int nstudents, int nseats, int nunreverseds, int nbcs, int nscs, int nsts) {
 		students = new Student[nstudents];
+		rstudents = new Student[100];
 		size = 0;
+		rsize = 0;
 		this.nstudents = nstudents;
 		this.nseats = nseats;
 		this.nunreverseds = nunreverseds;
@@ -15,6 +18,9 @@ class Solution {
 	}
 	public void add(Student s) {
 		students[size++] = s;
+	}
+	public void radd(Student s) {
+		rstudents[rsize++] = s;
 	}
 	public void meritsort() {
 		int i, j;
@@ -42,22 +48,26 @@ class Solution {
 		for (int i = 0; i < size; i++) {
 			//System.out.println(students[i]);
 			if (nunreverseds >= 1) {
-				System.out.println(students[i]);
+				//System.out.println(students[i]);
+				radd(students[i]);
 				nunreverseds = nunreverseds - 1;
 
 			} else {
 				String c = students[i].getcategory();
 				if (nbcs > 0 || nscs > 0 || nsts > 0) {
 					if (c.equals("BC") && nbcs > 0) {
-						System.out.println(students[i]);
+						//System.out.println(students[i]);
+						radd(students[i]);
 						nbcs = nbcs - 1;
 					}
 					if (c.equals("SC") && nscs > 0) {
-						System.out.println(students[i]);
+						//System.out.println(students[i]);
+						radd(students[i]);
 						nscs = nscs - 1;
 					}
 					if (c.equals("ST") && nsts > 0) {
-						System.out.println(students[i]);
+						//System.out.println(students[i]);
+						radd(students[i]);
 						nsts = nsts - 1;
 					}
 
@@ -68,7 +78,36 @@ class Solution {
 			}
 		}
 	}
+	public int contains(Student s) {
+		int f = 0;
+		for (int i = 0; i < rsize; i++) {
+			if (s.getname().equals(rstudents[i].getname())) {
+				f = 1;
+				break;
+			}
+		}
+		return f;
+		
 
+	}
+	public void rprint() {
+		int t = nbcs + nscs + nsts;
+		
+			for (int i = 0; i < size; i++) {
+				if (t <= 0) {
+					break;
+				}
+				if (contains(students[i]) == 0) {
+					radd(students[i]);
+					t = t - 1;
+				}
+			}
+		for (int i = 0; i < rsize; i++) {
+			System.out.println(rstudents[i]);
+		}
+
+
+	}
 	public int compare(Student s1, Student s2) {
 		if (s1.gettm() < s2.gettm()) return 1;
 		if (s1.gettm() > s2.gettm()) return 0;
@@ -105,6 +144,7 @@ class Solution {
 		s.print();
 		System.out.println();
 		s.reservationsort();
+		s.rprint();
 		
 	}
 }
