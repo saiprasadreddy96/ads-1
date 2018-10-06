@@ -7,22 +7,22 @@ class Student {
 	/**.
 	 * Constructs the object.
 	 *
-	 * @param      sname     The sname
-	 * @param      dob       The dob
-	 * @param      m1        The m 1
-	 * @param      m2        The m 2
-	 * @param      m3        The m 3
-	 * @param      tm        The time
-	 * @param      category  The category
+	 * @param      sname1     The sname 1
+	 * @param      dob1       The dob 1
+	 * @param      m11        The m 11
+	 * @param      m21        The m 21
+	 * @param      m31        The m 31
+	 * @param      tm1        The time 1
+	 * @param      category1  The category 1
 	 */
-	Student(final String sname, final String dob, final int m1, final int m2, final int m3, final int tm, final String category) {
-		this.sname = sname;
-		this.dob = dob;
-		this.m1 = m1;
-		this.m2 = m2;
-		this.m3 = m3;
-		this.tm = tm;
-		this.category = category;
+	Student(final String sname1, final String dob1, final int m11, final int m21, final int m31, final int tm1, final String category1) {
+		this.sname = sname1;
+		this.dob = dob1;
+		this.m1 = m11;
+		this.m2 = m21;
+		this.m3 = m31;
+		this.tm = tm1;
+		this.category = category1;
 	}
 	/**.
 	 * { function_description }

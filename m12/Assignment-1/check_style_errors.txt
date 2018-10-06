@@ -3,14 +3,7 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:5:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18: Line is longer than 80 characters (found 134). [LineLength]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:30: 'sname' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:50: 'dob' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:65: 'm1' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:79: 'm2' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:93: 'm3' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:107: 'tm' hides a field. [HiddenField]
-[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18:124: 'category' hides a field. [HiddenField]
+[ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:18: Line is longer than 80 characters (found 141). [LineLength]
 [ERROR] F:\recyle bin\MSIT\ads-1\m12\Assignment-1\Student.java:81: Line is longer than 80 characters (found 86). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 6 errors.
