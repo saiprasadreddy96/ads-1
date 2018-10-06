@@ -78,7 +78,8 @@ class Student {
 	 * @return     String representation of the object.
 	 */
 	public String toString() {
-		return this.getname() + "," + this.gettm() + "," + this.getcategory();
+		return this.getname() + "," + this.gettm()
+		+ "," + this.getcategory();
 	}
 
 }
