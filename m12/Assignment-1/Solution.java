@@ -16,21 +16,27 @@ class Solution {
 		this.nscs = nscs;
 		this.nsts = nsts;
 	}
+	public int getsize() {
+		return size;
+	}
+	public int getrsize() {
+		return rsize;
+	}
 	public void add(Student s) {
 		students[size++] = s;
 	}
 	public void radd(Student s) {
 		rstudents[rsize++] = s;
 	}
-	public void meritsort() {
+	public void meritsort(Student[] studentstemp, int sizetemp) {
 		int i, j;
-		for (i = 1; i < nstudents; i++) {
+		for (i = 1; i < sizetemp; i++) {
 			j = i;
 			while (j > 0) {
-				if (compare(students[j - 1], students[j]) == 1) {
-					Student s = students[j - 1];
-					students[j - 1] = students[j];
-					students[j] = s;
+				if (compare(studentstemp[j - 1], studentstemp[j]) == 1) {
+					Student s = studentstemp[j - 1];
+					studentstemp[j - 1] = studentstemp[j];
+					studentstemp[j] = s;
 					j = j - 1;
 
 				} else {
@@ -38,10 +44,10 @@ class Solution {
 				}
 			}
 		}
-	}
-	public void print() {
-		for (int i = 0; i < size; i++) {
-			System.out.println(students[i]);
+	
+	//public void print() {
+		for (int k = 0; k < sizetemp; k++) {
+			System.out.println(studentstemp[k]);
 		}
 	}
 	public void reservationsort() {
@@ -102,9 +108,9 @@ class Solution {
 					t = t - 1;
 				}
 			}
-		for (int i = 0; i < rsize; i++) {
-			System.out.println(rstudents[i]);
-		}
+		// for (int i = 0; i < rsize; i++) {
+		// 	System.out.println(rstudents[i]);
+		// }
 
 
 	}
@@ -140,11 +146,12 @@ class Solution {
 			s.add(new Student(str[0], str[1], Integer.parseInt(str[2]), Integer.parseInt(str[3]), Integer.parseInt(str[4]), Integer.parseInt(str[5]), str[6]));
 			nstudents = nstudents - 1;
 		}
-		s.meritsort();
-		s.print();
+		s.meritsort(s.students, s.getsize());
+		//s.print();
 		System.out.println();
 		s.reservationsort();
 		s.rprint();
+		s.meritsort(s.rstudents, s.getrsize());
 		
 	}
 }
