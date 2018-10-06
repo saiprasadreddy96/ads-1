@@ -4,17 +4,17 @@ class Solution {
 	private Student[] rstudents;
 	private int size;
 	private int nstudents, nseats, nunreverseds, nbcs, nscs, nsts, rsize;
-	Solution(int nstudents1, int nseats1, int nunreverseds1, int nbcs1, int nscs1, int nsts1) {
+	Solution(int nstudents, int nseats, int nunreverseds, int nbcs, int nscs, int nsts) {
 		students = new Student[nstudents];
 		rstudents = new Student[100];
 		size = 0;
 		rsize = 0;
-		this.nstudents = nstudents1;
-		this.nseats = nseats1;
-		this.nunreverseds = nunreverseds1;
-		this.nbcs = nbcs1;
-		this.nscs = nscs1;
-		this.nsts = nsts1;
+		this.nstudents = nstudents;
+		this.nseats = nseats;
+		this.nunreverseds = nunreverseds;
+		this.nbcs = nbcs;
+		this.nscs = nscs;
+		this.nsts = nsts;
 	}
 	public int getsize() {
 		return size;
