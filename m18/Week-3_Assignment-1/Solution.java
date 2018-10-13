@@ -221,7 +221,7 @@ public class Solution {
 			if (string1[1].equals("minST")) {
 				int index = search(string1[2]);
 				if (index != -1)
-					System.out.println(minvalues[index]);
+					System.out.println(Math.round(minvalues[index]));
 				
 					
 
@@ -230,7 +230,7 @@ public class Solution {
 			 if (string1[1].equals("maxST")){
 				int index = search1(string1[2]);
 				if (index != -1)
-					System.out.println(maxvalues[index]);
+					System.out.println(Math.round(maxvalues[index]));
 				
 			}
 			n1 = n1 - 1;
