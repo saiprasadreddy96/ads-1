@@ -720,7 +720,7 @@ Bajaj Finserv -4.64
 Schaeffler India -2.57
 Bharat Rasayan -2.0
 Merck Ltd -1.61
-Oracle Fin -1.61
+HEG Ltd -1.61
 
 Merck Ltd 4.83
 MRF 3.48

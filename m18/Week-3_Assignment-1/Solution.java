@@ -28,9 +28,20 @@ public class Solution {
 		minstocks[++minsize] = s;
 		k = minsize;
 		while(k > 1 && minstocks[k].getpercentagechange() <= minstocks[k / 2].getpercentagechange()) {
-			Stock temps = minstocks[k];
-			minstocks[k] = minstocks[k / 2];
-			minstocks[k / 2] = temps;
+			if (minstocks[k].getpercentagechange() == minstocks[k / 2].getpercentagechange()) {
+				if (minstocks[k].getname().compareTo(minstocks[k / 2].getname()) < 0) {
+					Stock temps = minstocks[k];
+					minstocks[k] = minstocks[k / 2];
+					minstocks[k / 2] = temps;
+					//k = k / 2;
+
+				}
+			} else {
+				Stock temps = minstocks[k];
+				minstocks[k] = minstocks[k / 2];
+				minstocks[k / 2] = temps;
+				//k = k / 2;
+			}
 			k = k / 2;
 		}
 	}
