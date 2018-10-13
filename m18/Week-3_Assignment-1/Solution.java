@@ -38,7 +38,7 @@ public class Solution {
 		int k;
 		maxstocks[++maxsize] = s;
 		k = maxsize;
-		while(k > 1 && maxstocks[k].getpercentagechange() >= maxstocks[k / 2].getpercentagechange()) {
+		while(k > 1 && maxstocks[k].getpercentagechange() > maxstocks[k / 2].getpercentagechange()) {
 			Stock temps = maxstocks[k];
 			maxstocks[k] = maxstocks[k / 2];
 			maxstocks[k / 2] = temps;

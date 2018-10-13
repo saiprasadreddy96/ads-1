@@ -23,7 +23,7 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:37:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'maxinsert' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'maxinsert' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:37:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:37:24: Parameter s should be final. [FinalParameters]
-[ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:41: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:41: Line is longer than 80 characters (found 109). [LineLength]
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:41:22: 'while' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:49:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'mindelete' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'mindelete' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] F:\recyle bin\MSIT\ads-1\m18\Week-3_Assignment-1\Solution.java:49:9: Missing a Javadoc comment. [JavadocMethod]

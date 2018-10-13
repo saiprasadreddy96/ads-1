@@ -230,8 +230,8 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-Jubilant Food 4.08
 Larsen & Toubro 4.08
+Jubilant Food 4.08
 NIIT Tech 3.21
 Vinati Organics 3.03
 Chola Inv Fin 2.47
@@ -532,8 +532,8 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-Jubilant Food 4.08
 Larsen & Toubro 4.08
+Jubilant Food 4.08
 NIIT Tech 3.21
 Vinati Organics 3.03
 Chola Inv Fin 2.47
@@ -688,8 +688,8 @@ Tasty Bite Eat
 Your Output: 
 Merck Ltd 4.83
 Schaeffler India 2.57
-TTK Prestige 2.15
 ICRA 2.15
+TTK Prestige 2.15
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -700,9 +700,9 @@ Bajaj Finserv 0.64
 
 Bajaj Finserv 5.64
 Schaeffler India 4.59
+Sanofi India 4.0
 ICRA 4.0
 Nestle India 4.0
-Sanofi India 4.0
 
 Merck Ltd -5.83
 Honeywell Auto -1.08
