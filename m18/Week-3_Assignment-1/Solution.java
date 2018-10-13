@@ -222,6 +222,8 @@ public class Solution {
 				int index = search(string1[2]);
 				if (index != -1)
 					System.out.println(Math.round(minvalues[index]));
+				else
+					System.out.println("0");
 				
 					
 
@@ -231,6 +233,8 @@ public class Solution {
 				int index = search1(string1[2]);
 				if (index != -1)
 					System.out.println(Math.round(maxvalues[index]));
+				else
+					System.out.println("0");
 				
 			}
 			n1 = n1 - 1;
