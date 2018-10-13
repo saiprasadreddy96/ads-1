@@ -16,12 +16,21 @@ class Stock {
 public class Solution {
 	private Stock[] minstocks;
 	private Stock[] maxstocks;
+	private static String[] minkeys = new String[100];
+	private static String[] maxkeys = new String[100];
 	private int minsize, maxsize;
+	private static int size1 = 0, size2 = 0;
+	private static float[] minvalues = new float[100];
+	private static float[] maxvalues = new float[100];
 	Solution(int n) {
 		minstocks = new Stock[n + 1];
 		maxstocks = new Stock[n + 1];
 		minsize = 0;
 		maxsize = 0;
+		//minkeys = new String[100];
+		//minvalues = new float[100];
+		//minsize1 = 0;
+
 	}
 	void mininsert(Stock s) {
 		int k;
@@ -101,6 +110,26 @@ public class Solution {
 		
 		for (int i = 1; i <= 5; i++) {
 			Stock temps = mindelete();
+			if (search(temps.getname()) == -1) {
+				minkeys[size1] = temps.getname();
+				minvalues[size1] = 1;
+				size1 = size1 + 1;
+				int z = size1 - 1;
+				while (z > 0 && minkeys[z - 1].compareTo(minkeys[z]) > 0) {
+					String s = minkeys[z-1];
+					minkeys[z-1] = minkeys[z];
+					minkeys[z] = s;
+					float f = minvalues[z - 1];
+					minvalues[z - 1] = minvalues[z];
+					minvalues[z] = f;
+					z = z - 1;
+				}
+
+			} else {
+				int p = search(temps.getname());
+				minvalues[p] = minvalues[p] + 1;
+
+			}
 			System.out.println(temps.getname() + " " + temps.getpercentagechange());
 		}
 		System.out.println();
@@ -108,12 +137,56 @@ public class Solution {
 	public void printmax() {
 		for (int i = 1; i <= 5; i++) {
 			Stock temps = maxdelete();
+			if (search1(temps.getname()) == -1) {
+				maxkeys[size2] = temps.getname();
+				maxvalues[size2] = 1;
+				size2 = size2 + 1;
+				int z = size2 - 1;
+				while (z > 0 && maxkeys[z - 1].compareTo(maxkeys[z]) > 0) {
+					String s = maxkeys[z-1];
+					maxkeys[z-1] = maxkeys[z];
+					maxkeys[z] = s;
+					float f = maxvalues[z - 1];
+					maxvalues[z - 1] = maxvalues[z];
+					maxvalues[z] = f;
+					z = z - 1;
+				}
+
+			} else {
+				int p = search1(temps.getname());
+				maxvalues[p] = maxvalues[p] + 1;
+
+			}
 			System.out.println(temps.getname() + " " + temps.getpercentagechange());
 		}
 		System.out.println();
 	}
-
-
+	static int search(String str) {
+		int l = 0, h = size1 - 1;
+		while (l <= h) {
+			int m = (l + h) / 2;
+			if (minkeys[m].compareTo(str) < 0) 
+				l = m + 1;
+			else if (minkeys[m].compareTo(str) > 0)
+				h = m - 1;
+			else 
+				return m;
+		}
+		return -1;
+	}
+	static int search1(String str) {
+		int l = 0, h = size2 - 1;
+		while (l <= h) {
+			int m = (l + h) / 2;
+			if (maxkeys[m].compareTo(str) < 0) 
+				l = m + 1;
+			else if (maxkeys[m].compareTo(str) > 0)
+				h = m - 1;
+			else 
+				return m;
+		}
+		return -1;
+	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = Integer.parseInt(sc.nextLine());
@@ -130,7 +203,38 @@ public class Solution {
 			s.printmax();
 			s.printmin();
 		}
+		int n1 = Integer.parseInt(sc.nextLine());
+		
+		
+		// for (int i = 0; i < size2 ;i++) {
+		// 	System.out.println(maxkeys[i] + " " + maxvalues[i]);
+			
+		// }
+		// System.out.println();
+		// System.out.println();
+		// for (int i = 0; i < size1; i++) {
+		// 	System.out.println(minkeys[i] + " " + minvalues[i]);
+		// 	//System.out.println(maxkeys[i] + " " + maxvalues[i]);
+		// }
+		while (n1 > 0) {
+			String[] string1 = sc.nextLine().split(",");
+			if (string1[1].equals("minST")) {
+				int index = search(string1[2]);
+				if (index != -1)
+					System.out.println(minvalues[index]);
+				
+					
 
+
+			}
+			 if (string1[1].equals("maxST")){
+				int index = search1(string1[2]);
+				if (index != -1)
+					System.out.println(maxvalues[index]);
+				
+			}
+			n1 = n1 - 1;
+		}
 
 		
 	}
