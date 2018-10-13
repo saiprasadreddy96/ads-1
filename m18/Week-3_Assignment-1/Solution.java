@@ -27,7 +27,7 @@ public class Solution {
 		int k;
 		minstocks[++minsize] = s;
 		k = minsize;
-		while(k > 1 && minstocks[k].getpercentagechange() < minstocks[k / 2].getpercentagechange()) {
+		while(k > 1 && minstocks[k].getpercentagechange() <= minstocks[k / 2].getpercentagechange()) {
 			Stock temps = minstocks[k];
 			minstocks[k] = minstocks[k / 2];
 			minstocks[k / 2] = temps;
@@ -38,7 +38,7 @@ public class Solution {
 		int k;
 		maxstocks[++maxsize] = s;
 		k = maxsize;
-		while(k > 1 && maxstocks[k].getpercentagechange() > maxstocks[k / 2].getpercentagechange()) {
+		while(k > 1 && maxstocks[k].getpercentagechange() >= maxstocks[k / 2].getpercentagechange()) {
 			Stock temps = maxstocks[k];
 			maxstocks[k] = maxstocks[k / 2];
 			maxstocks[k / 2] = temps;
@@ -54,9 +54,9 @@ public class Solution {
 		minsize = minsize - 1;
 		while (j * 2 < minsize) {
 			k = 2 * j;
-			if (minstocks[k].getpercentagechange() > minstocks[k + 1].getpercentagechange()) 
+			if (minstocks[k].getpercentagechange() >= minstocks[k + 1].getpercentagechange()) 
 				k = k + 1;
-			if (minstocks[k].getpercentagechange() > minstocks[j].getpercentagechange())
+			if (minstocks[k].getpercentagechange() >= minstocks[j].getpercentagechange())
 				break;
 			Stock temps1 = minstocks[k];
 			minstocks[k] = minstocks[j];
