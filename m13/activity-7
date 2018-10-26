@@ -1,0 +1,2 @@
+Yes, the ascending order array will be a min - oriented heap.
+As every parent will be less than its children.
