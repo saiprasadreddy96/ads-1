@@ -1,0 +1,13 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+
+lo:0 mid:0 hi:1 | a: A, E, S, Y, Q, U, E, S, T, I, O, N
+lo:2 mid:2 hi:3 | a: A, E, S, Y, Q, U, E, S, T, I, O, N
+lo:4 mid:4 hi:5 | a: A, E, S, Y, Q, U, E, S, T, I, O, N
+lo:6 mid:6 hi:7 | a: A, E, S, Y, Q, U, E, S, T, I, O, N
+lo:8 mid:8 hi:9 | a: A, E, S, Y, Q, U, E, S, I, T, O, N
+lo:10 mid:10 hi:11 | a: A, E, S, Y, Q, U, E, S, I, T, N, O
+lo:0 mid:1 hi:3 | a: A, E, S, Y, Q, U, E, S, I, T, N, O
+lo:4 mid:5 hi:7 | a: A, E, S, Y, E, Q, S, U, I, T, N, O
+lo:8 mid:9 hi:11 | a: A, E, S, Y, E, Q, S, U, I, N, O, T
+lo:0 mid:3 hi:7 | a: A, E, E, Q, S, S, U, Y, I, N, O, T
+lo:0 mid:7 hi:11 | a: A, E, E, I, N, O, Q, S, S, T, U, Y
