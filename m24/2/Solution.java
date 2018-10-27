@@ -139,18 +139,19 @@ class BinarySearchTree {
       return;
     }
     //int cmp = key.compareTo(x.key);
-    if (x.key == key2) 
-    	add(x.value.getname());
-    if (x.key == key1) 
-    	add(x.value.getname());
+    // if (x.key == key2) 
+    // 	add(x.value.getname());
+    // if (x.key == key1) 
+    // 	add(x.value.getname());
     if (x.key > key2) 
       get(x.left, key1, key2);
     if (x.key < key1) 
      get(x.right, key1, key2);
   	if (x.key >= key1 && x.key <= key2) {
-  		add(x.value.getname());
+  		
   		get(x.left, key1, key2);
   		get(x.right, key1, key2);
+  		add(x.value.getname());
   	}
 
     

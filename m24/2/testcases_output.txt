@@ -5,9 +5,9 @@ Rivest
 Dan
 Abegg
 Your Output: 
-Rivest
 Clark
 Dan
+Rivest
 Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -58,47 +58,47 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Alice
-Rivest
-Clark
-Sasha Cagen
 Rhian Cahill
-Access
+Sasha Cagen
+Clark
 Rachel Caine
-Bob
-Adams
-Peter
+Access
+Rivest
 Biba Caggiano
 David Cabot
-Wayne
+Peter
 Yassi
-Charles
-Jonathan Cainer
 Jeannette Caines
-Megon
-Hank
+Jonathan Cainer
+Charles
+Wayne
+Adams
+Bob
+Alice
 Steve Cafferty
-Deborah Cadbury
-Dan Caddy
 Neil Cadigan
-John
-Douglas
-Tony
-Simon
-Daniel
+Dan Caddy
+Deborah Cadbury
+Hank
 Meili Cady
 James Cain
-Greig Caigou
+Daniel
 George Cain
-Keith
+Greig Caigou
+Simon
 Meg Cabot
-Fred
-Sally Cabot
-Tim Cain
+Keith
+Tony
 Rovina Cai
-Abegg
+Tim Cain
+Sally Cabot
+Fred
+Douglas
 Tim Cahill
 Brian Caffrey
+Abegg
+John
+Megon
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -165,65 +165,65 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Megon
-Hank
 Steve Cafferty
-Deborah Cadbury
-Dan Caddy
 Neil Cadigan
-John
-Douglas
-Tony
-Simon
-Daniel
+Dan Caddy
+Deborah Cadbury
+Hank
 Meili Cady
 James Cain
-Greig Caigou
+Daniel
 George Cain
-Keith
+Greig Caigou
+Simon
 Meg Cabot
-Fred
-Sally Cabot
-Tim Cain
+Keith
+Tony
 Rovina Cai
-Abegg
+Tim Cain
+Sally Cabot
+Fred
+Douglas
 Tim Cahill
 Brian Caffrey
-Rivest
-Megon
-Hank
-Steve Cafferty
-Deborah Cadbury
-Dan Caddy
-Neil Cadigan
+Abegg
 John
-Douglas
-Tony
-Simon
-Daniel
+Megon
+Steve Cafferty
+Neil Cadigan
+Dan Caddy
+Deborah Cadbury
+Hank
 Meili Cady
 James Cain
-Greig Caigou
+Daniel
 George Cain
-Keith
+Greig Caigou
+Simon
 Meg Cabot
-Fred
-Sally Cabot
-Tim Cain
+Keith
+Tony
 Rovina Cai
-Abegg
+Tim Cain
+Sally Cabot
+Fred
+Douglas
 Tim Cahill
-Clark
 Brian Caffrey
-Sasha Cagen
 Rhian Cahill
+Sasha Cagen
+Clark
+Abegg
+John
 Megon
-Hank
+Rivest
 Steve Cafferty
-Deborah Cadbury
-Dan Caddy
 Neil Cadigan
+Dan Caddy
+Deborah Cadbury
+Hank
 Meili Cady
+Megon
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -942,21 +942,21 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-H3CZ
-Stuart B. MacBride
 Wayne Pacelle
-Keith Habersberger
-Tessa Hadley
-John Jacobs
-Amanda Mackenzie Stuart
+Stuart B. MacBride
 Alison Mackey PhD
 Elaine Pagels
+Amanda Mackenzie Stuart
+John Jacobs
 Sammy Hagar
-Namita Jain
+Tessa Hadley
 Yamile Saied Méndez
+Namita Jain
+Keith Habersberger
+H3CZ
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
-	at BinarySearchTree.add(Solution.java:161)
-	at BinarySearchTree.get(Solution.java:151)
+	at BinarySearchTree.add(Solution.java:162)
+	at BinarySearchTree.get(Solution.java:154)
 	at BinarySearchTree.get(Solution.java:152)
 	at BinarySearchTree.get(Solution.java:152)
 	at BinarySearchTree.get(Solution.java:152)
@@ -967,5 +967,5 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
 	at BinarySearchTree.get(Solution.java:147)
 	at BinarySearchTree.get(Solution.java:147)
 	at BinarySearchTree.get(Solution.java:125)
-	at Solution.main(Solution.java:227)
+	at Solution.main(Solution.java:228)
 ----------------------------------------
