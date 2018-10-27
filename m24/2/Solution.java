@@ -150,8 +150,9 @@ class BinarySearchTree {
   	if (x.key >= key1 && x.key <= key2) {
   		
   		get(x.left, key1, key2);
-  		get(x.right, key1, key2);
   		add(x.value.getname());
+  		get(x.right, key1, key2);
+
   	}
 
     
