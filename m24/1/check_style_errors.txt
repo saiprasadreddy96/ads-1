@@ -19,9 +19,8 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:22:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:22:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:29: Line is longer than 80 characters (found 102). [LineLength]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:36: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:36: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:40:58: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:38:17: '}' at column 10 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:42:66: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\recyle bin\MSIT\ads-1\m24\1\Solution.java:48: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 23 errors.
