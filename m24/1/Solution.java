@@ -30,7 +30,7 @@ class Solution {
         	hash.put(Integer.parseInt(str[0]), s);
         }
         int nq = Integer.parseInt(scan.nextLine());
-        for (int i = 1; i < nq; i++) {
+        for (int i = 1; i <= nq; i++) {
         	String[] str = scan.nextLine().split(" ");
         	Student st = hash.get(Integer.parseInt(str[1]));
         	if (Integer.parseInt(str[2]) == 1) {
