@@ -81,8 +81,9 @@ John
 Hank
 13.3
 Jeannette Caines
+Student doesn't exists...
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:39)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -918,6 +919,7 @@ Annie Maccoby
 David Macfarlane
 10.42
 88.39
+Student doesn't exists...
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:37)
+	at Solution.main(Solution.java:39)
 ----------------------------------------

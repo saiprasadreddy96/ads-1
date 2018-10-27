@@ -33,9 +33,11 @@ class Solution {
         for (int i = 1; i <= nq; i++) {
         	String[] str = scan.nextLine().split(" ");
         	Student st = hash.get(Integer.parseInt(str[1]));
+        	if (st == null) 
+        		System.out.println("Student doesn't exists...");
         	if (Integer.parseInt(str[2]) == 1) {
         		System.out.println(st.getname());
-        	} else {
+        	} else if (Integer.parseInt(str[2]) == 2){
         		System.out.println(st.getmarks());
         	}
 
