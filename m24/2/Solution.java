@@ -230,7 +230,7 @@ class Solution {
         	}
         	else {
         		//size1 = 0;
-        		bst.get(Double.parseDouble(str[1]), 100.0);
+        		bst.get(Double.parseDouble(str[1]), 200.0);
         	}
         }
 
