@@ -5,9 +5,9 @@ Rivest
 Dan
 Abegg
 Your Output: 
+Rivest
 Clark
 Dan
-Rivest
 Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -59,8 +59,9 @@ Abegg
 Brian Caffrey
 Your Output: 
 Alice
-Clark
 Rivest
+Clark
+Sasha Cagen
 Rhian Cahill
 Access
 Rachel Caine
@@ -69,20 +70,20 @@ Adams
 Peter
 Biba Caggiano
 David Cabot
-Sasha Cagen
 Wayne
+Yassi
 Charles
 Jonathan Cainer
 Jeannette Caines
-Yassi
-Hank
 Megon
+Hank
+Steve Cafferty
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Steve Cafferty
+Tony
 Simon
 Daniel
 Meili Cady
@@ -98,7 +99,6 @@ Rovina Cai
 Abegg
 Tim Cahill
 Brian Caffrey
-Tony
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -165,14 +165,15 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Hank
 Megon
+Hank
+Steve Cafferty
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Steve Cafferty
+Tony
 Simon
 Daniel
 Meili Cady
@@ -188,16 +189,16 @@ Rovina Cai
 Abegg
 Tim Cahill
 Brian Caffrey
-Tony
+Rivest
 Megon
 Hank
-Rivest
+Steve Cafferty
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Steve Cafferty
+Tony
 Simon
 Daniel
 Meili Cady
@@ -216,14 +217,13 @@ Clark
 Brian Caffrey
 Sasha Cagen
 Rhian Cahill
-Tony
-Hank
 Megon
+Hank
+Steve Cafferty
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 Meili Cady
-Steve Cafferty
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -944,6 +944,7 @@ Vicky Hales-Dutton
 Your Output: 
 H3CZ
 Stuart B. MacBride
+Wayne Pacelle
 Keith Habersberger
 Tessa Hadley
 John Jacobs
@@ -952,7 +953,6 @@ Alison Mackey PhD
 Elaine Pagels
 Sammy Hagar
 Namita Jain
-Wayne Pacelle
 Yamile Saied Méndez
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
 	at BinarySearchTree.add(Solution.java:161)

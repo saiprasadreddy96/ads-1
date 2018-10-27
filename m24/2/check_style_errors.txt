@@ -33,8 +33,6 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:160:3: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:160:19: Parameter name1 should be final. [FinalParameters]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:165:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:169:22: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:170: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:187: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:188:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:189:9: Missing a Javadoc comment. [JavadocVariable]
@@ -57,4 +55,4 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:228:17: '}' at column 10 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:231:61: '100.0' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 57 errors.
+Checkstyle ends with 55 errors.

@@ -163,19 +163,19 @@ class BinarySearchTree {
 
 
   public void sort() {
-  	String temp;
-  	for (int i = 1; i < size1; i++) {
-  		int j = i;
-  		while(j >= 1) {
-  			if (names[j].compareTo(names[j - 1]) > 0)
-  				break;
+  	// String temp;
+  	// for (int i = 1; i < size1; i++) {
+  	// 	int j = i;
+  	// 	while(j >= 1) {
+  	// 		if (names[j].compareTo(names[j - 1]) > 0)
+  	// 			break;
 
-  			temp = names[j];
-  			names[j] = names[j - 1];
-  			names[j - 1] = temp;
+  	// 		temp = names[j];
+  	// 		names[j] = names[j - 1];
+  	// 		names[j - 1] = temp;
 
-  		}
-  	}
+  	// 	}
+  	// }
   	for (int i = 0; i < size1; i++) {
   		System.out.println(names[i]);
   	}
