@@ -1,5 +1,7 @@
 import java.util.*;
 class BinarySearchTree {
+	private String[] names;
+	public static int size1 = 0;
   /**
    * Class for node.
    */
@@ -36,6 +38,7 @@ class BinarySearchTree {
       this.left = null;
       this.right = null;
       this.size = size;
+
     }
   }
   /**
@@ -47,6 +50,8 @@ class BinarySearchTree {
    */
   BinarySearchTree() {
     root = null;
+    names = new String[100];
+    //size1 = 0;
   }
   /**
    * Determines if empty.
@@ -116,7 +121,9 @@ class BinarySearchTree {
    * @return     Gets the value.
    */
   public void get(final Double key1, final Double key2) {
+  	size1 = 0;
     get(root, key1, key2);
+    sort();
     return;
   }
   /**
@@ -133,21 +140,45 @@ class BinarySearchTree {
     }
     //int cmp = key.compareTo(x.key);
     if (x.key == key2) 
-    	System.out.println(x.value.getname());
+    	add(x.value.getname());
     if (x.key == key1) 
-    	System.out.println(x.value.getname());
+    	add(x.value.getname());
     if (x.key > key2) 
       get(x.left, key1, key2);
     if (x.key < key1) 
      get(x.right, key1, key2);
   	if (x.key >= key1 && x.key <= key2) {
-  		System.out.println(x.value.getname());
+  		add(x.value.getname());
   		get(x.left, key1, key2);
   		get(x.right, key1, key2);
   	}
 
     
     return;
+  }
+
+  public void add(String name1) {
+  	names[size1++] = name1;
+  }
+
+
+  public void sort() {
+  	String temp;
+  	for (int i = 1; i < size1; i++) {
+  		int j = i;
+  		while(j >= 1) {
+  			if (names[j].compareTo(names[j - 1]) > 0)
+  				break;
+
+  			temp = names[j];
+  			names[j] = names[j - 1];
+  			names[j - 1] = temp;
+
+  		}
+  	}
+  	for (int i = 0; i < size1; i++) {
+  		System.out.println(names[i]);
+  	}
   }
 
 }
@@ -187,13 +218,21 @@ class Solution {
 		int nq = Integer.parseInt(scan.nextLine());
 		for (int i = 1; i <= nq; i++) {
         	String[] str = scan.nextLine().split(" ");
-        	if (str[0].equals("BE"))
+        	if (str[0].equals("BE")) {
+        		//size1 = 0;
         		bst.get(Double.parseDouble(str[1]), Double.parseDouble(str[2]));
-        	else if (str[0].equals("LE"))
+        	}
+        	else if (str[0].equals("LE")) {
+        		//size1 = 0;
         		bst.get(0.0, Double.parseDouble(str[1]));
-        	else
+        	}
+        	else {
+        		//size1 = 0;
         		bst.get(Double.parseDouble(str[1]), 100.0);
+        	}
         }
+
+
 
 	}
 

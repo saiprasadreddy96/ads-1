@@ -5,9 +5,9 @@ Rivest
 Dan
 Abegg
 Your Output: 
-Rivest
 Clark
 Dan
+Rivest
 Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -59,9 +59,8 @@ Abegg
 Brian Caffrey
 Your Output: 
 Alice
-Rivest
 Clark
-Sasha Cagen
+Rivest
 Rhian Cahill
 Access
 Rachel Caine
@@ -70,20 +69,20 @@ Adams
 Peter
 Biba Caggiano
 David Cabot
+Sasha Cagen
 Wayne
-Yassi
 Charles
 Jonathan Cainer
 Jeannette Caines
-Megon
+Yassi
 Hank
-Steve Cafferty
+Megon
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Tony
+Steve Cafferty
 Simon
 Daniel
 Meili Cady
@@ -99,6 +98,7 @@ Rovina Cai
 Abegg
 Tim Cahill
 Brian Caffrey
+Tony
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -165,15 +165,14 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Megon
 Hank
-Steve Cafferty
+Megon
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Tony
+Steve Cafferty
 Simon
 Daniel
 Meili Cady
@@ -189,16 +188,16 @@ Rovina Cai
 Abegg
 Tim Cahill
 Brian Caffrey
-Rivest
+Tony
 Megon
 Hank
-Steve Cafferty
+Rivest
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 John
 Douglas
-Tony
+Steve Cafferty
 Simon
 Daniel
 Meili Cady
@@ -217,13 +216,14 @@ Clark
 Brian Caffrey
 Sasha Cagen
 Rhian Cahill
-Megon
+Tony
 Hank
-Steve Cafferty
+Megon
 Deborah Cadbury
 Dan Caddy
 Neil Cadigan
 Meili Cady
+Steve Cafferty
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -944,7 +944,6 @@ Vicky Hales-Dutton
 Your Output: 
 H3CZ
 Stuart B. MacBride
-Wayne Pacelle
 Keith Habersberger
 Tessa Hadley
 John Jacobs
@@ -953,676 +952,20 @@ Alison Mackey PhD
 Elaine Pagels
 Sammy Hagar
 Namita Jain
-Yamile Saied Méndez
-Pamela Haag
-Mary Curran Hackett
-Thomas Hackett
-Margaret Peterson Haddix
-John W. Jacobs M.D.
-Laurence Packer
-Ed J. Paine
-Macky Pamintuan
-Michael Panckridge
-June Hadley
-Margaret Haffner
-Elaine Hall
-Emma Page
-William Hague
-Kathryn Jacobi
-Melissa P
-Chris Pallace
-Jenna Bush Hager
-Sheila Hale
-Gildart Jackson
-Jeremy Jackson
-Harvey Mackay
-John Hale
-Korey Jackson
-Danielle Paige
-Cindy Pan
-Nathan Hale
-Derek Jacobi
-Katie MacAlister
-Bonnie MacBird
-Meredith Jaeger
-Joseph A. Maciariello
-David Packard
-Rebecca Pacheco
-Scott Palmer
-Charlie Haas
-T. T. Macan
-Tracy Hafen
-Kristin Hahn
-Peter Haining
-Amanda Hall
-Bernie Mac
-Madhur Jaffrey
-Marianna Palka
-Rona Jaffe
-Bonner Paddock
-Sara MacDonald
-Alison Mackey
-Jim Paillot
-Daniel Paisner
-Colin Jack
-Philip MacDonald
-Aggie MacKenzie
-Chuck Hagel
-Kellie Hailes
-Ian Jackman
-Emma Jackson
-Michele Jaffe
-Shvetha Jaishankar
-Peter Jackson
-Magnus MacFarlane-Barrow
-Kennell Jackson
-Richard Jackson
-Carrington MacDuffie
-Katherine Hall Page
-Marylin Hafner
-Michael Hague
-Carla Hall
-Andrew Jacobson
-Catherine Macaulay
-Frank Pacetta
-Iva-Marie Palmer
-Cynthia Jabar
-Albert Jack
-Jerome A. Jackson
-Rachel Jacobs
-Stuart MacBride
-Meredith L. Jacobs
-Robin MacArthur
-Barry Pain
-Bonnie MacBird
-Betty MacDonald
-Amanda Mackenzie Stuart
-Kevin MacAllister
-Howard Jacobson
-Saskia Maarleveld
-D. J. MacHale
-Louise Mack
-Sarah Palin
-Auston Habershaw
-Bethany Hagen
-Mick Jackson
-Melanie MacHugh
-Bethany Palmer
-Tiffany D. Jackson
-Adele Jacques
-Mark Palmer
-Taylor Hackford
-David H. Hackworth
-Laura Holmes Haddad
-Marilyn Hagerty
-Nafisa Haji
-Chris Packham
-Rebecca Paley
-Al Jaffee
-Shaili Jain M.D.
-Nasim Marie Jafry
-Gerry Hadden
-Anthony Haden-Guest
-Rawi Hage
-Vicky Hales-Dutton
-Shelley Jackson
-Thelma Page
-Marianna Palk
-Daniel Palmer
-Guru Jagat
-Don Hagen
-Steve Hagen
-Kathryn Miller Haines
-Ruth H. Jacobs
-Stuart MacBride
-Margie Palatini
-Steve Jackson
-William Haefeli
-Debra W. Haffner
-W. G. Hale
-Dana Jacobi
-Carlos Pan
-David Halberstam
-Alan Jacobs
-George Jacobs
-Niccolo Machiavelli
-Kate Jacoby
-Olivia Mace
-Kathleen Hale
-Colleen Padilla
-Allan Hall
-Richard Jacoby
-Jennifer Haigh
-Gordon Jack
-Douglas Palmer
-Ellen Jackson
-Tracey Jackson
-Piers A. Jacob
-Kathryn Ma
-Ellie Macdonald
-Amanda Maciel
-Ron Padgett
-Christopher N. Page
-Portia MacIntosh
-Norm MacDonald
-Helena S. Paige
-Penny Palmano
-Gracie MacGregor
-Merle Haggard
-A.N.D Haksar
-James Graham Hale
-Sylvie Haisman
-Shannon Hale
-Steven Pacey
-Edward Paice
-Simon Jacobson
-Steph Jagger
-Norm Macdonald
-George Packer
-Michael Page
-Roger O.M.D. Jahnke
-Warren Mackenzie
-Tim Andres Pabon
-Dana C. Jack
-Nate Jackson
-Madeleine Maby
-Linden MacIntyre
-Juliette MacIver
-Aparna Jain
-Bristol Palin
-David Haig
-Bradley Jackson
-Sophie Jaff
-Lorrie Mack
-Ruby Jackson
-Robert Ian MacKenzie
-Alex James
-Andrew Macdonald
-Charles B. Macdonald
-Greg Page
-H3CZ
-Michael Haag
-Jessie Haas
-Mark Haddon
-Fiona MacKenzie
-Julie Mac
-James Macdonald
-Jane MacDougall
-Burton L. Mack
-Audrey Mackaman
-Harvey B. Mackay
-Tim Page
-Jennifer Page
-Heather Hach
-David Hagedorn
-Katharina Hagena
-Michael Hale
-Joshilyn Jackson
-Melissa Jacobs
-Fiona MacDonald
-Jeff MacGregor
-Anna-Liisa Hakkarainen
-Sarah Jacoby
-Joie Jager-Hyman
-Alex Palmer
-Betty Halbreich
-Kristin Halbrook
-Nick Page
-Jo Jackson King
-John W. Jacobs
-James B. Maas
-M MacCallum
-Manoj Pandey
-Richard Mabey
-Thomas Paine
-Libby Jackson
-Kinley MacGregor
-Liza Palmer
-Virginia Macgregor
-Bruce Hale
-Cindy Dr. Pan
-Annie Maccoby
-Jeff Mack
-Gene Hackman
-Yossi Klein Halevi
-J.D. Jackson
-Myla Jackson
-Jean Reynolds Page
-Jamuna Pai
-Roger Lea MacBride
-Kady MacDonald Denton
-Andy Paciorek
-Simcha Jacobovici
-Ann-Marie MacDonald
-Niall Mackenzie
-Mary Downing Hahn
-Araminta Hall
-Lynn F. Jacobs
-Tony Macaulay
-Fiona Palmer
-Carla Jablonski
-Margaret Read MacDonald
-Sara Mackenzie
-Emily Hainsworth
-Robert Jackson
-Robert Macfarlane
-Jane Paley
-Mary MacCracken
-Sari Padorr
-Kevin MacAllister
-Maxwell Mackenzie
-Keach Hagey
-H. JACKSON
-John Hornor Jacobs
-Michael Jaime-Becerra
-David Macfarlane
-Jake Page
-Peter Maas
-Terrence J
-Sean Padraic
-Sang Pak
-Thomas Pakenham
-Shane Jacobson
-Stuart B. MacBride
-Hannah Paasch
-Helen Palmer
-Svetlana Palmer
 Wayne Pacelle
-Keith Habersberger
-Tessa Hadley
-John Jacobs
-Amanda Mackenzie Stuart
-Alison Mackey PhD
-Elaine Pagels
-Sammy Hagar
-Namita Jain
 Yamile Saied Méndez
-Mary Curran Hackett
-Thomas Hackett
-Margaret Peterson Haddix
-John W. Jacobs M.D.
-Laurence Packer
-Ed J. Paine
-Macky Pamintuan
-Michael Panckridge
-June Hadley
-Margaret Haffner
-Elaine Hall
-Emma Page
-William Hague
-Kathryn Jacobi
-Melissa P
-Chris Pallace
-Jenna Bush Hager
-Sheila Hale
-Gildart Jackson
-Jeremy Jackson
-Harvey Mackay
-John Hale
-Korey Jackson
-Danielle Paige
-Cindy Pan
-Derek Jacobi
-Katie MacAlister
-Bonnie MacBird
-Meredith Jaeger
-Joseph A. Maciariello
-David Packard
-Rebecca Pacheco
-Scott Palmer
-H3CZ
-Michael Haag
-Jessie Haas
-Taylor Hackford
-Gerry Hadden
-Ellen Jackson
-Tracey Jackson
-Piers A. Jacob
-Kathryn Ma
-Ellie Macdonald
-Christopher N. Page
-Portia MacIntosh
-Norm MacDonald
-Helena S. Paige
-Penny Palmano
-Gracie MacGregor
-Merle Haggard
-A.N.D Haksar
-James Graham Hale
-Sylvie Haisman
-Shannon Hale
-Steven Pacey
-Edward Paice
-Simon Jacobson
-Steph Jagger
-Norm Macdonald
-George Packer
-Michael Page
-Roger O.M.D. Jahnke
-Warren Mackenzie
-Tim Andres Pabon
-Dana C. Jack
-Nate Jackson
-Madeleine Maby
-Linden MacIntyre
-Juliette MacIver
-Aparna Jain
-Bristol Palin
-Mark Haddon
-Daniel Hahn
-Jeannette Haien
-David Haig
-Bradley Jackson
-Sophie Jaff
-Lorrie Mack
-Ruby Jackson
-Robert Ian MacKenzie
-David Jacobs
-Alex James
-Andrew Macdonald
-Charles B. Macdonald
-Greg Page
-Marina Palmer
-Fiona MacKenzie
-Sara Palacios
-Charles Panati
-Julie Mac
-James Macdonald
-Jane MacDougall
-Burton L. Mack
-Audrey Mackaman
-Harvey B. Mackay
-Tim Page
-Jennifer Page
-Heather Hach
-David Hagedorn
-Katharina Hagena
-Michael Hale
-Joshilyn Jackson
-Melissa Jacobs
-Fiona MacDonald
-Jeff MacGregor
-Anna-Liisa Hakkarainen
-Sarah Jacoby
-Joie Jager-Hyman
-Alex Palmer
-Betty Halbreich
-Kristin Halbrook
-Nick Page
-Jo Jackson King
-John W. Jacobs
-James B. Maas
-M MacCallum
-Manoj Pandey
-Richard Mabey
-Thomas Paine
-Libby Jackson
-Kinley MacGregor
-Liza Palmer
-Virginia Macgregor
-Bruce Hale
-Cindy Dr. Pan
-Annie Maccoby
-Jeff Mack
-Gene Hackman
-Yossi Klein Halevi
-J.D. Jackson
-Myla Jackson
-Jean Reynolds Page
-Jamuna Pai
-Roger Lea MacBride
-Kady MacDonald Denton
-Andy Paciorek
-Simcha Jacobovici
-Ann-Marie MacDonald
-Niall Mackenzie
-Mary Downing Hahn
-Araminta Hall
-Lynn F. Jacobs
-Tony Macaulay
-Fiona Palmer
-Carla Jablonski
-Margaret Read MacDonald
-Sara Mackenzie
-Emily Hainsworth
-Robert Jackson
-Robert Macfarlane
-Jane Paley
-Mary MacCracken
-Sari Padorr
-Kevin MacAllister
-Maxwell Mackenzie
-Keach Hagey
-H. JACKSON
-John Hornor Jacobs
-Michael Jaime-Becerra
-David Macfarlane
-Jake Page
-Peter Maas
-Terrence J
-Sean Padraic
-Sang Pak
-Thomas Pakenham
-Shane Jacobson
-Stuart B. MacBride
-Hannah Paasch
-Helen Palmer
-Svetlana Palmer
-Wayne Pacelle
-Keith Habersberger
-Tessa Hadley
-John Jacobs
-Amanda Mackenzie Stuart
-Alison Mackey PhD
-Elaine Pagels
-Sammy Hagar
-Namita Jain
-Yamile Saied Méndez
-Daniel Hahn
-Jeannette Haien
-Ruby Jackson
-David Jacobs
-Alex James
-Andrew Macdonald
-Charles B. Macdonald
-Greg Page
-Marina Palmer
-Sara Palacios
-Pamela Haag
-Mary Curran Hackett
-Thomas Hackett
-Margaret Peterson Haddix
-John W. Jacobs M.D.
-Laurence Packer
-Ed J. Paine
-Macky Pamintuan
-Michael Panckridge
-June Hadley
-Margaret Haffner
-Elaine Hall
-Emma Page
-William Hague
-Kathryn Jacobi
-Melissa P
-Chris Pallace
-Jenna Bush Hager
-Sheila Hale
-Gildart Jackson
-Jeremy Jackson
-Harvey Mackay
-John Hale
-Korey Jackson
-Danielle Paige
-Cindy Pan
-Nathan Hale
-Derek Jacobi
-Katie MacAlister
-Bonnie MacBird
-Meredith Jaeger
-Joseph A. Maciariello
-David Packard
-Rebecca Pacheco
-Scott Palmer
-T. T. Macan
-Tracy Hafen
-Kristin Hahn
-Peter Haining
-Amanda Hall
-Bernie Mac
-Madhur Jaffrey
-Marianna Palka
-Rona Jaffe
-Bonner Paddock
-Sara MacDonald
-Alison Mackey
-Jim Paillot
-Daniel Paisner
-Colin Jack
-Philip MacDonald
-Aggie MacKenzie
-Chuck Hagel
-Kellie Hailes
-Ian Jackman
-Emma Jackson
-Michele Jaffe
-Shvetha Jaishankar
-Peter Jackson
-Magnus MacFarlane-Barrow
-Kennell Jackson
-Richard Jackson
-Carrington MacDuffie
-Katherine Hall Page
-Michael Hague
-Carla Hall
-Andrew Jacobson
-Catherine Macaulay
-Frank Pacetta
-Iva-Marie Palmer
-Cynthia Jabar
-Albert Jack
-Jerome A. Jackson
-Rachel Jacobs
-Stuart MacBride
-Meredith L. Jacobs
-Robin MacArthur
-Barry Pain
-Bonnie MacBird
-Betty MacDonald
-Amanda Mackenzie Stuart
-Kevin MacAllister
-Howard Jacobson
-D. J. MacHale
-Jessie Haas
-Mark Haddon
-Fiona MacKenzie
-Charles Panati
-Julie Mac
-James Macdonald
-Jane MacDougall
-Burton L. Mack
-Audrey Mackaman
-Harvey B. Mackay
-Tim Page
-Jennifer Page
-David Hagedorn
-Katharina Hagena
-Michael Hale
-Joshilyn Jackson
-Melissa Jacobs
-Fiona MacDonald
-Jeff MacGregor
-Anna-Liisa Hakkarainen
-Sarah Jacoby
-Joie Jager-Hyman
-Alex Palmer
-Kristin Halbrook
-Nick Page
-Jo Jackson King
-John W. Jacobs
-James B. Maas
-M MacCallum
-Manoj Pandey
-Richard Mabey
-Thomas Paine
-Libby Jackson
-Kinley MacGregor
-Liza Palmer
-Pamela Haag
-Mary Curran Hackett
-Thomas Hackett
-Margaret Peterson Haddix
-John W. Jacobs M.D.
-Laurence Packer
-Ed J. Paine
-Macky Pamintuan
-Michael Panckridge
-June Hadley
-Margaret Haffner
-Elaine Hall
-Emma Page
-William Hague
-Kathryn Jacobi
-Melissa P
-Chris Pallace
-Jenna Bush Hager
-Sheila Hale
-Gildart Jackson
-Jeremy Jackson
-Harvey Mackay
-John Hale
-Korey Jackson
-Danielle Paige
-Cindy Pan
-Nathan Hale
-Derek Jacobi
-Katie MacAlister
-Bonnie MacBird
-Meredith Jaeger
-Joseph A. Maciariello
-David Packard
-Rebecca Pacheco
-Scott Palmer
-Tracy Hafen
-Kristin Hahn
-Peter Haining
-Amanda Hall
-Bernie Mac
-Madhur Jaffrey
-Marianna Palka
-Rona Jaffe
-Bonner Paddock
-Sara MacDonald
-Alison Mackey
-Jim Paillot
-Daniel Paisner
-Colin Jack
-Philip MacDonald
-Aggie MacKenzie
-Chuck Hagel
-Kellie Hailes
-Ian Jackman
-Emma Jackson
-Michele Jaffe
-Shvetha Jaishankar
-Peter Jackson
-Magnus MacFarlane-Barrow
-Kennell Jackson
-Richard Jackson
-Carrington MacDuffie
-Katherine Hall Page
-Auston Habershaw
-David H. Hackworth
-Laura Holmes Haddad
-Marilyn Hagerty
-Nafisa Haji
-Chris Packham
-Rebecca Paley
-Al Jaffee
-Shaili Jain M.D.
-Nasim Marie Jafry
-Vicky Hales-Dutton
-Shelley Jackson
-Thelma Page
-Marianna Palk
-Daniel Palmer
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
+	at BinarySearchTree.add(Solution.java:161)
+	at BinarySearchTree.get(Solution.java:151)
+	at BinarySearchTree.get(Solution.java:152)
+	at BinarySearchTree.get(Solution.java:152)
+	at BinarySearchTree.get(Solution.java:152)
+	at BinarySearchTree.get(Solution.java:153)
+	at BinarySearchTree.get(Solution.java:147)
+	at BinarySearchTree.get(Solution.java:153)
+	at BinarySearchTree.get(Solution.java:153)
+	at BinarySearchTree.get(Solution.java:147)
+	at BinarySearchTree.get(Solution.java:147)
+	at BinarySearchTree.get(Solution.java:125)
+	at Solution.main(Solution.java:227)
 ----------------------------------------
