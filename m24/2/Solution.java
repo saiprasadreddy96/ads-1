@@ -108,20 +108,25 @@ class BinarySearchTree {
     } else if (key > x.key) {
       x.right = put(x.right, key, value);
     } else {
-    	if (x.value.getname().compareTo(value.getname()) < 0) {
-    		Node y = new Node(key, value, 1);
-    		y.left = x;
-    		y.right = x.right;
-    		x.right = null;
-    		return y;
-    	} else if (x.value.getname().compareTo(value.getname()) > 0) {
-    		Node y = new Node(key, value, 1);
-    		y.left = x.left;
-    		y.right = null;
-    		x.left = y;
-    		return x;
+    	// if (x.value.getname().compareTo(value.getname()) < 0) {
+    	// 	Node y = new Node(key, value, 1);
+    	// 	y.left = x;
+    	// 	y.right = x.right;
+    	// 	x.right = null;
+    	// 	return y;
+    	// } else if (x.value.getname().compareTo(value.getname()) > 0) {
+    	// 	Node y = new Node(key, value, 1);
+    	// 	y.left = x.left;
+    	// 	y.right = null;
+    	// 	x.left = y;
+    	// 	return x;
 
-    	}
+    	// }
+    	Node y = new Node(key, value, 1);
+    	 	y.left = x;
+    		y.right = x.right;
+    	 	x.right = null;
+    	 	return y;
       //x.right = put(x.left, key, value);
     }
     x.size = 1 + size(x.left) + size(x.right);
