@@ -127,7 +127,7 @@ class BinarySearchTree {
     	// 	y.right = x.right;
     	//  	x.right = null;
     	//  	return y;
-      x.right = put(x.left, key, value);
+      x.right = put(x.right, key, value);
     }
     x.size = 1 + size(x.left) + size(x.right);
     return x;
