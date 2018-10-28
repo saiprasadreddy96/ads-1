@@ -10,7 +10,7 @@ Rivest
 Dan
 Abegg
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Clark
 Rhian Cahill
@@ -60,6 +60,7 @@ Brian Caffrey
 Your Output: 
 Clark
 Rhian Cahill
+Cozbi A. Cabrera
 Sasha Cagen
 Rivest
 Access
@@ -96,13 +97,14 @@ Douglas
 Fred
 Sally Cabot
 Rovina Cai
+James Caffin
 Tim Cain
 John
 Tim Cahill
 Abegg
 Brian Caffrey
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Steve Cafferty
 Hank
@@ -186,6 +188,7 @@ Douglas
 Fred
 Sally Cabot
 Rovina Cai
+James Caffin
 Tim Cain
 John
 Tim Cahill
@@ -210,6 +213,7 @@ Douglas
 Fred
 Sally Cabot
 Rovina Cai
+James Caffin
 Tim Cain
 John
 Tim Cahill
@@ -217,6 +221,7 @@ Abegg
 Brian Caffrey
 Clark
 Rhian Cahill
+Cozbi A. Cabrera
 Sasha Cagen
 Rivest
 Steve Cafferty
@@ -957,17 +962,17 @@ Keith Habersberger
 Yamile Saied Méndez
 Namita Jain
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
-	at BinarySearchTree.add(Solution.java:163)
-	at BinarySearchTree.get(Solution.java:153)
-	at BinarySearchTree.get(Solution.java:152)
-	at BinarySearchTree.get(Solution.java:152)
-	at BinarySearchTree.get(Solution.java:152)
-	at BinarySearchTree.get(Solution.java:154)
-	at BinarySearchTree.get(Solution.java:147)
-	at BinarySearchTree.get(Solution.java:154)
-	at BinarySearchTree.get(Solution.java:154)
-	at BinarySearchTree.get(Solution.java:147)
-	at BinarySearchTree.get(Solution.java:147)
-	at BinarySearchTree.get(Solution.java:125)
-	at Solution.main(Solution.java:229)
+	at BinarySearchTree.add(Solution.java:177)
+	at BinarySearchTree.get(Solution.java:167)
+	at BinarySearchTree.get(Solution.java:166)
+	at BinarySearchTree.get(Solution.java:168)
+	at BinarySearchTree.get(Solution.java:168)
+	at BinarySearchTree.get(Solution.java:166)
+	at BinarySearchTree.get(Solution.java:161)
+	at BinarySearchTree.get(Solution.java:168)
+	at BinarySearchTree.get(Solution.java:168)
+	at BinarySearchTree.get(Solution.java:161)
+	at BinarySearchTree.get(Solution.java:161)
+	at BinarySearchTree.get(Solution.java:139)
+	at Solution.main(Solution.java:243)
 ----------------------------------------
