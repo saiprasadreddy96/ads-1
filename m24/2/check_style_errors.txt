@@ -8,7 +8,7 @@ Starting audit...
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:4:27: Variable 'size1' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:35:53: 'size' hides a field. [HiddenField]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:35:53: Expected @param tag for 'size'. [JavadocMethod]
-[ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:53:24: '100' is a magic number. [MagicNumber]
+[ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:53:24: '500' is a magic number. [MagicNumber]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:79:20: Parameter x should be final. [FinalParameters]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:80: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\recyle bin\MSIT\ads-1\m24\2\Solution.java:81: 'else' construct must use '{}'s. [NeedBraces]
