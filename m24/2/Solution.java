@@ -50,7 +50,7 @@ class BinarySearchTree {
    */
   BinarySearchTree() {
     root = null;
-    names = new String[500];
+    names = new String[1000];
     //size1 = 0;
   }
   /**
