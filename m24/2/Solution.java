@@ -122,12 +122,12 @@ class BinarySearchTree {
     	// 	return x;
 
     	// }
-    	Node y = new Node(key, value, 1);
-    	 	y.left = x;
-    		y.right = x.right;
-    	 	x.right = null;
-    	 	return y;
-      //x.right = put(x.left, key, value);
+    	// Node y = new Node(key, value, 1);
+    	//  	y.left = x;
+    	// 	y.right = x.right;
+    	//  	x.right = null;
+    	//  	return y;
+      x.right = put(x.left, key, value);
     }
     x.size = 1 + size(x.left) + size(x.right);
     return x;
